@@ -27,6 +27,7 @@ class HomeViewModelTest {
         Dispatchers.resetMain()
     }
     @Test
+
     fun test_coroutine() = runTest {
         assertEquals(viewModel.fetchData(), "Hello World")
     }
