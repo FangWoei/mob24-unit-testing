@@ -7,8 +7,9 @@ orbs:
 
 jobs:
   run-unit-test:
-    executor: android/android-docker
-    tag: "2024.08"
+    executor:
+      name: android/android-docker
+      tag: "2024.08"
     steps:
       - checkout
       - android/restore-gradle-cache
