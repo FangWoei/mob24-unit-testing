@@ -14,7 +14,6 @@ jobs:
       - android/restore-gradle-cache
       - android/run-tests:
          test-command: ./gradlew testDebugUnitTest
-
       - android/save-gradle-cache
 
 workflows:
