@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "mob21retrofit"
+rootProject.name = "mob24Test"
 include(":app")
  
