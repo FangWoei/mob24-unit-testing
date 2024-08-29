@@ -17,6 +17,6 @@ class ValidationUtilTest {
 
     @Test
     fun `validateEmail should return false for a@a,com$`(){
-        assertTrue(ValidationUtil.validateEmail("a@a.com$"))
+        assertFalse(ValidationUtil.validateEmail("a@a.com$"))
     }
 }
